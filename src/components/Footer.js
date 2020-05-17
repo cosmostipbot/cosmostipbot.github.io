@@ -30,10 +30,10 @@ export default class Footer extends React.Component {
         <footer style={foot}>
           <span>&copy; All rights reserved. @cosmostipbot 2020</span>
           <span className="float-right">
-            <a href="/terms-and-conditions" style={link}>
+            <a href="/terms" style={link}>
               <span className="ml-4">Terms & Conditions</span>
             </a>
-            <a href="/privacy-policy" style={link}>
+            <a href="/privacy" style={link}>
               <span className="ml-4">Privacy Policy</span>
             </a>
           </span>
