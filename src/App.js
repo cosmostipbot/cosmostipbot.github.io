@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import Footer from './Footer';
+import Footer from "./Footer";
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -29,63 +29,84 @@ function App() {
     `!languages: Returns a list of languages available for translation`,
   ];
   return (
-    <div className="App">       
-     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">@cosmostipbot</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">How-To</Nav.Link>
-          <NavDropdown title="About" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">FAQ</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Terms</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">About Us</NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
-        {/* <Form inline>
+    <div className="App">
+      <Navbar bg="light" expand="lg">
+        <Navbar.Brand href="#home">@cosmostipbot</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#link">How-To</Nav.Link>
+            <NavDropdown title="About" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">FAQ</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Terms</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">About Us</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+          {/* <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
           <Button variant="outline-success">Search</Button>
         </Form> */}
-      </Navbar.Collapse>
-    </Navbar>
+        </Navbar.Collapse>
+      </Navbar>
       <Jumbotron>
         <div className="header-div">
-          <img src="/img/background.png" className="header-img" alt="comostipbot logo" />
+          <img
+            src="/img/background.png"
+            className="header-img"
+            alt="comostipbot logo"
+          />
         </div>
       </Jumbotron>
 
       <Container>
         <Row>
-          <Col><h1>Commands</h1></Col>
+          <Col>
+            <h1>Commands</h1>
+          </Col>
         </Row>
 
         <Row>
-          <Col><b>Tweet / Group Message Commands</b><br/><i>Tips are sent through public tweets. These are processed in real time.</i><br/><br/></Col>
+          <Col>
+            <b>Tweet / Group Message Commands</b>
+            <br />
+            <i>
+              Tips are sent through public tweets. These are processed in real
+              time.
+            </i>
+            <br />
+            <br />
+          </Col>
         </Row>
         <Row>
           <Col>
             <div className="commands">
               <ul>
-                {tweetCommand.map(command => <li>{command}</li>)}
+                {tweetCommand.map((command) => (
+                  <li>{command}</li>
+                ))}
               </ul>
             </div>
           </Col>
         </Row>
 
         <Row>
-          <Col><b>DM / PM Commands</b></Col>
-          </Row>
-          <Row>
-            <Col>
-              <div className="commands">
-                <ul>
-                  {commandsWithExplanation.map(command => <li>{command}</li>)}
-                </ul>
-              </div>
-            </Col>
-          </Row>
+          <Col>
+            <b>DM / PM Commands</b>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <div className="commands">
+              <ul>
+                {commandsWithExplanation.map((command) => (
+                  <li>{command}</li>
+                ))}
+              </ul>
+            </div>
+          </Col>
+        </Row>
       </Container>
 
       <Footer />
