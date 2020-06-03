@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "KievitOT-BookItalic";
+  src: url("KievitOT-BookItalic.eot");
+  src: local("KievitOT-BookItalic"),
+    url("KievitOT-BookItalic.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-BookItalic.woff2") format("woff2"),
+    url("KievitOT-BookItalic.woff") format("woff"),
+    url("KievitOT-BookItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-BoldItalic.eot");
+  src: local("KievitOT-BoldItalic"),
+    url("KievitOT-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-BoldItalic.woff2") format("woff2"),
+    url("KievitOT-BoldItalic.woff") format("woff"),
+    url("KievitOT-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-Medium.eot");
+  src: local("KievitOT-Medium"),
+    url("KievitOT-Medium.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-Medium.woff2") format("woff2"),
+    url("KievitOT-Medium.woff") format("woff"),
+    url("KievitOT-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-LightItalic.eot");
+  src: local("KievitOT-LightItalic"),
+    url("KievitOT-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-LightItalic.woff2") format("woff2"),
+    url("KievitOT-LightItalic.woff") format("woff"),
+    url("KievitOT-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-Italic.eot");
+  src: local("KievitOT-Italic"),
+    url("KievitOT-Italic.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-Italic.woff2") format("woff2"),
+    url("KievitOT-Italic.woff") format("woff"),
+    url("KievitOT-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-MediumItalic.eot");
+  src: local("KievitOT-MediumItalic"),
+    url("KievitOT-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-MediumItalic.woff2") format("woff2"),
+    url("KievitOT-MediumItalic.woff") format("woff"),
+    url("KievitOT-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-Black.eot");
+  src: local("KievitOT-Black"),
+    url("KievitOT-Black.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-Black.woff2") format("woff2"),
+    url("KievitOT-Black.woff") format("woff"),
+    url("KievitOT-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KievitOT-Book";
+  src: url("KievitOT-Book.eot");
+  src: local("KievitOT-Book"),
+    url("KievitOT-Book.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-Book.woff2") format("woff2"),
+    url("KievitOT-Book.woff") format("woff"),
+    url("KievitOT-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-Regular.eot");
+  src: local("KievitOT-Regular"),
+    url("KievitOT-Regular.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-Regular.woff2") format("woff2"),
+    url("KievitOT-Regular.woff") format("woff"),
+    url("KievitOT-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-ExtraLight.eot");
+  src: local("KievitOT-ExtraLight"),
+    url("KievitOT-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-ExtraLight.woff2") format("woff2"),
+    url("KievitOT-ExtraLight.woff") format("woff"),
+    url("KievitOT-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-Thin.eot");
+  src: local("KievitOT-Thin"),
+    url("KievitOT-Thin.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-Thin.woff2") format("woff2"),
+    url("KievitOT-Thin.woff") format("woff"),
+    url("KievitOT-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-ExtraBold.eot");
+  src: local("KievitOT-ExtraBold"),
+    url("KievitOT-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-ExtraBold.woff2") format("woff2"),
+    url("KievitOT-ExtraBold.woff") format("woff"),
+    url("KievitOT-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-Bold.eot");
+  src: local("KievitOT-Bold"),
+    url("KievitOT-Bold.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-Bold.woff2") format("woff2"),
+    url("KievitOT-Bold.woff") format("woff"),
+    url("KievitOT-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-ExtraLightItalic.eot");
+  src: local("KievitOT-ExtraLightItalic"),
+    url("KievitOT-ExtraLightItalic.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-ExtraLightItalic.woff2") format("woff2"),
+    url("KievitOT-ExtraLightItalic.woff") format("woff"),
+    url("KievitOT-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-ThinItalic.eot");
+  src: local("KievitOT-ThinItalic"),
+    url("KievitOT-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-ThinItalic.woff2") format("woff2"),
+    url("KievitOT-ThinItalic.woff") format("woff"),
+    url("KievitOT-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-BlackItalic.eot");
+  src: local("KievitOT-BlackItalic"),
+    url("KievitOT-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-BlackItalic.woff2") format("woff2"),
+    url("KievitOT-BlackItalic.woff") format("woff"),
+    url("KievitOT-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-Light.eot");
+  src: local("KievitOT-Light"),
+    url("KievitOT-Light.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-Light.woff2") format("woff2"),
+    url("KievitOT-Light.woff") format("woff"),
+    url("KievitOT-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("KievitOT-ExtraBoldItalic.eot");
+  src: local("KievitOT-ExtraBoldItalic"),
+    url("KievitOT-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("KievitOT-ExtraBoldItalic.woff2") format("woff2"),
+    url("KievitOT-ExtraBoldItalic.woff") format("woff"),
+    url("KievitOT-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}

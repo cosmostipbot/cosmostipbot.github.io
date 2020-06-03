@@ -29,7 +29,7 @@ export default class Footer extends React.Component {
       <div style={phantom}>
         <footer style={foot}>
           <span>&copy; All rights reserved. @cosmostipbot 2020</span>
-          <span className="float-right">
+          <span className="float-right xs-hidden">
             <a href="/terms" style={link}>
               <span className="ml-4">Terms & Conditions</span>
             </a>

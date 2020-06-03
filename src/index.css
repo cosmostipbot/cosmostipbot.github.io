@@ -3,12 +3,65 @@
   src: local("Roboto"),
     url(./fonts/Roboto/Roboto-Regular.ttf) format("truetype");
 }
+/* 
+.your-style {
+  font-family: 'KievitOT';
+  font-weight: 500;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "CooperBlack";
+  src: local("COOPBL"), url(./fonts/cooper-black/COOPBL.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "KievitOT-Medium";
+  src: url("./fonts/Kievit/KievitOT-Medium.eot");
+  src: local("./fonts/Kievit/KievitOT-Medium"),
+    url("./fonts/Kievit/KievitOT-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Kievit/KievitOT-Medium.woff2") format("woff2"),
+    url("./fonts/Kievit/KievitOT-Medium.woff") format("woff"),
+    url("./fonts/Kievit/KievitOT-Medium.ttf") format("truetype");
+  font-weight: 550;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KievitOT-Book";
+  src: url("./fonts/Kievit/KievitOT-Book.eot");
+  src: local("./fonts/Kievit/KievitOT-Book"),
+    url("./fonts/Kievit/KievitOT-Book.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Kievit/KievitOT-Book.woff2") format("woff2"),
+    url("./fonts/Kievit/KievitOT-Book.woff") format("woff"),
+    url("./fonts/Kievit/KievitOT-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KievitOT";
+  src: url("./fonts/Kievit/KievitOT-Regular.eot");
+  src: local("./fonts/Kievit/KievitOT-Regular"),
+    url("./fonts/Kievit/KievitOT-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Kievit/KievitOT-Regular.woff2") format("woff2"),
+    url("./fonts/Kievit/KievitOT-Regular.woff") format("woff"),
+    url("./fonts/Kievit/KievitOT-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
-  font-family: Roboto;
+  /* font-family: Roboto; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: "KievitOT-Book";
+  font-weight: 550;
+  font-style: normal;
+  font-size: 1.2em;
 }
 
 code {

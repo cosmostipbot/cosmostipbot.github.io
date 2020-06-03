@@ -9,7 +9,7 @@ export default class TopNavbar extends Component {
     return (
       <div>
         <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home">@cosmostipbot</Navbar.Brand>
+          <Navbar.Brand href="/">@cosmostipbot</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
@@ -18,6 +18,7 @@ export default class TopNavbar extends Component {
               <NavDropdown title="About" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/faq">FAQ</NavDropdown.Item>
                 <NavDropdown.Item href="/terms">Terms</NavDropdown.Item>
+                <NavDropdown.Item href="/privacy">Privacy</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="/about">About Us</NavDropdown.Item>
               </NavDropdown>
