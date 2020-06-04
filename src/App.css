@@ -45,3 +45,7 @@
     visibility: hidden;
   }
 }
+
+.emoji {
+  padding: 5px;
+}

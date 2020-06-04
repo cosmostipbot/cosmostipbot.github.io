@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter, faTelegram } from "@fortawesome/free-brands-svg-icons";
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -23,10 +25,31 @@ export default class TopNavbar extends Component {
                 <NavDropdown.Item href="/about">About Us</NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            {/* <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-success">Search</Button>
-            </Form> */}
+            <Navbar.Collapse className="justify-content-end xs-hidden">
+              <Navbar.Text>
+                Follow me on:{" "}
+                <a
+                  href="https://twitter.com/Cosmostipbot?ref_src=cosmostipbot.com"
+                  target="new"
+                  className="twitter-follow-button emoji"
+                  data-show-count="false"
+                >
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+                <script
+                  async
+                  src="https://platform.twitter.com/widgets.js"
+                  charset="utf-8"
+                ></script>{" "}
+                <a
+                  href="https://tttttt.me/cosmostipbot"
+                  target="new"
+                  className="emoji twitter-follow-button"
+                >
+                  <FontAwesomeIcon icon={faTelegram} />
+                </a>
+              </Navbar.Text>
+            </Navbar.Collapse>
           </Navbar.Collapse>
         </Navbar>
       </div>

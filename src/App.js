@@ -14,6 +14,7 @@ import Home from "./pages/Home";
 import HowTo from "./pages/HowTo";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Terms from "./pages/Terms";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/howto" component={HowTo} />
         <Route path="/privacy" component={PrivacyPolicy} />
         <Route path="/terms" component={Terms} />
+        <Route path="/contact" component={Contact} />
       </Switch>
 
       <Footer />

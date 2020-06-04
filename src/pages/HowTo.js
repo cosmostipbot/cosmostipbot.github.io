@@ -84,8 +84,16 @@ export default class HowTo extends Component {
                           for your Twitter or Telegram ID.
                           <br />
                           <br />
-                          Congratulations 👨🏼‍🚀 the bot has assigned a unique Atom
-                          account to your personal Twitter ID.
+                          Congratulations{" "}
+                          <span
+                            role="img"
+                            className="emoji"
+                            aria-label="astronaut"
+                          >
+                            👨🏼‍🚀
+                          </span>{" "}
+                          the bot has assigned a unique Atom account to your
+                          personal Twitter ID.
                           <br />
                           <br />
                           A user may track & check his/her account on any public
@@ -132,21 +140,33 @@ export default class HowTo extends Component {
                           <br />
                           Tx-fee (example):
                           <br />
-                          ✅Joe wants to tip 0.01 Atom to Anna via a public
+                          <span role="img" className="emoji" aria-label="check">
+                            ✅
+                          </span>{" "}
+                          Joe wants to tip 0.01 Atom to Anna via a public
                           mention on any public tweet. He uses the standard tip
                           format below:
                           <br />
                           @Cosmostipbot !tip 0.01 @Anna
                           <br />
                           <br />
-                          ✅Joe must !register with the @Cosmostipbot
+                          <span role="img" className="emoji" aria-label="check">
+                            ✅
+                          </span>{" "}
+                          Joe must !register with the @Cosmostipbot
                           <br />
                           <br />
-                          ✅The bot automatically charges a 5% pow-fee which
+                          <span role="img" className="emoji" aria-label="check">
+                            ✅
+                          </span>{" "}
+                          The bot automatically charges a 5% pow-fee which
                           includes the gas cost*
                           <br />
                           <br />
-                          ✅Anna recieves 0.0095 Atom at her Twitter ID.
+                          <span role="img" className="emoji" aria-label="check">
+                            ✅
+                          </span>{" "}
+                          Anna recieves 0.0095 Atom at her Twitter ID.
                           <br />
                           <br />
                           Anna gets notified and may proceed to withdraw the tip

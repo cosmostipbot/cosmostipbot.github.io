@@ -201,6 +201,20 @@ export default class Home extends Component {
                         </div>
                       </Col>
                     </Row>
+                    <Row>
+                      <Col>
+                        <a
+                          href="https://tttttt.me/cosmostipbot"
+                          target="new"
+                          className="emoji twitter-follow-button"
+                        >
+                          <Button variant="primary" size="lg">
+                            <FontAwesomeIcon icon={faTelegram} size="lg" />{" "}
+                            Register on Telegram
+                          </Button>
+                        </a>
+                      </Col>
+                    </Row>
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
