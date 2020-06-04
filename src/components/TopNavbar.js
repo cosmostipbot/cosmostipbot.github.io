@@ -27,14 +27,16 @@ export default class TopNavbar extends Component {
             </Nav>
             <Navbar.Collapse className="justify-content-end xs-hidden">
               <Navbar.Text>
-                Follow me on:{" "}
                 <a
                   href="https://twitter.com/Cosmostipbot?ref_src=cosmostipbot.com"
                   target="new"
                   className="twitter-follow-button emoji"
                   data-show-count="false"
                 >
-                  <FontAwesomeIcon icon={faTwitter} />
+                  <FontAwesomeIcon
+                    icon={faTwitter}
+                    style={{ color: "#00aced" }}
+                  />
                 </a>
                 <script
                   async
@@ -46,7 +48,10 @@ export default class TopNavbar extends Component {
                   target="new"
                   className="emoji twitter-follow-button"
                 >
-                  <FontAwesomeIcon icon={faTelegram} />
+                  <FontAwesomeIcon
+                    icon={faTelegram}
+                    style={{ color: "steelblue" }}
+                  />
                 </a>
               </Navbar.Text>
             </Navbar.Collapse>

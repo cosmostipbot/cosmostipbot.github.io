@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faTelegram } from "@fortawesome/free-brands-svg-icons";
+import { faLightbulbOn as farLightbulbOn } from "@fortawesome/pro-regular-svg-icons";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -58,10 +59,10 @@ export default class HowTo extends Component {
                         </i>
                         <div style={{ textAlign: "left" }}>
                           <br />
-                          <br />
-                          How to navigate the @Cosmostipbot on Twitter or
-                          Telegram?
-                          <br />
+                          <h3>
+                            How to navigate the @Cosmostipbot on Twitter or
+                            Telegram?
+                          </h3>
                           <br />
                           1. Visit{" "}
                           <a
@@ -77,13 +78,16 @@ export default class HowTo extends Component {
                           <br />
                           <br />
                           2. Send a direct message (DM/PM) to the tip-bot and
-                          type !help in the comment field.
+                          type <code>!help</code> in the comment field.
                           <br />
                           <br />
-                          3. Next type !register to claim a unique Atom address
-                          for your Twitter or Telegram ID.
+                          3. Next type <code>!register</code> to claim a unique
+                          Atom address for your Twitter or Telegram ID.
                           <br />
                           <br />
+                          <span role="img" className="emoji" aria-label="party">
+                            🎉
+                          </span>{" "}
                           Congratulations{" "}
                           <span
                             role="img"
@@ -95,37 +99,39 @@ export default class HowTo extends Component {
                           the bot has assigned a unique Atom account to your
                           personal Twitter ID.
                           <br />
-                          <br />
-                          A user may track & check his/her account on any public
-                          blockchain explorer: www.mintscan.io
-                          <br />
-                          <br />
-                          In order to deposit/withdraw Atom cryptocurrency, one
-                          may use the bot command !deposit or !withdraw <br />
-                          to either load-up a tip account or transfer Atom to a
-                          more secure hardware wallet like{" "}
-                          <a href="https://www.ledger.com/" target="new">
-                            https://www.ledger.com/
+                          <br />A user may track & check his/her account on any
+                          public blockchain explorer:{" "}
+                          <a href="https://www.mintscan.io" target="new">
+                            mintscan.io
                           </a>
                           <br />
                           <br />
-                          How to send tips?
+                          In order to deposit/withdraw Atom cryptocurrency, one
+                          may use the bot command <code>!account</code> or{" "}
+                          <code>!withdraw</code> <br />
+                          to either load-up a tip account or transfer Atom to a
+                          more secure hardware wallet like{" "}
+                          <a href="https://www.ledger.com/" target="new">
+                            ledger.com
+                          </a>
                           <br />
+                          <br />
+                          <h3>How to send tips?</h3>
                           <br />
                           Always use the STF (Standard tip format) on any public
                           post or group chat.
                           <br />
                           <br />
-                          For Twitter: @Cosmostipbot !tip 1 @username
+                          For Twitter:{" "}
+                          <code>@Cosmostipbot !tip 1 @username</code>
                           <br />
                           <br />
-                          For Telegram: @Cosmostipbot /tip 1 @username
+                          For Telegram:{" "}
+                          <code>@Cosmostipbot /tip 1 @username</code>
                           <br />
                           <br />
-                          <br />
-                          <br />
-                          How is the @cosmostipbot maintained?
-                          <br />
+                          <hr />
+                          <h3>How is the @cosmostipbot maintained?</h3>
                           <br />
                           The tip-bot is maintained by community nodes & a
                           backup infrastructure to provide emergency
@@ -138,7 +144,9 @@ export default class HowTo extends Component {
                           on each tip-bot transaction.
                           <br />
                           <br />
-                          Tx-fee (example):
+                          <h3>
+                            Tx-fee <small>example</small>
+                          </h3>
                           <br />
                           <span role="img" className="emoji" aria-label="check">
                             ✅
@@ -147,13 +155,13 @@ export default class HowTo extends Component {
                           mention on any public tweet. He uses the standard tip
                           format below:
                           <br />
-                          @Cosmostipbot !tip 0.01 @Anna
+                          <code>@Cosmostipbot !tip 0.01 @Anna</code>
                           <br />
                           <br />
                           <span role="img" className="emoji" aria-label="check">
                             ✅
                           </span>{" "}
-                          Joe must !register with the @Cosmostipbot
+                          Joe must <code>!register</code> with the @Cosmostipbot
                           <br />
                           <br />
                           <span role="img" className="emoji" aria-label="check">
@@ -171,25 +179,39 @@ export default class HowTo extends Component {
                           <br />
                           Anna gets notified and may proceed to withdraw the tip
                           by sending a DM to @Cosmostipbot <br />
-                          with the command !register or !help followed up by
-                          !withdraw or continue tipping.
+                          with the command <code>!register</code> or{" "}
+                          <code>!help</code> followed up by
+                          <code>!withdraw</code> or continue tipping.
                           <br />
-                          “Tip recipients do not need a tip-bot account to be
-                          able to receive tips. <br />
-                          Registration with the bot is only required to deposit
-                          Atom or withdraw tips”
                           <br />
-                          (*5% tip-bot proof of work fee explained. <br />
-                          It consist of 1. Cost to cover the gas to perform the
-                          Atom tip transaction + 2. Cost to maintain optimal
-                          tip-bot up time, efficiency & development
-                          improvements).
-                          <br />
+                          <blockquote className="blockquote">
+                            <p>
+                              <span className="emoji">
+                                <FontAwesomeIcon
+                                  icon={farLightbulbOn}
+                                  size="lg"
+                                />
+                              </span>{" "}
+                              Hint: Tip recipients do not need a tip-bot account
+                              to be able to receive tips. Registration with the
+                              bot is only required to deposit Atom or withdraw
+                              tips.
+                            </p>
+                          </blockquote>
                           A confirmation tweet will always appear below the
                           mentioned tip tweet and indicate the tx hash including
                           amount sent, a timestamp and link to a reliable Cosmos
                           blockchain explorer.
                           <br />
+                          <br />
+                          <small>
+                            *5% tip-bot proof of work fee <br />
+                            It consist of cost to cover the gas to perform the
+                            Atom tip transaction and cost to maintain optimal
+                            tip-bot up time, efficiency & development
+                            improvements.
+                            <br />
+                          </small>
                         </div>
                       </Col>
                     </Row>
@@ -217,6 +239,7 @@ export default class HowTo extends Component {
               </Col>
             </Row>
           </Tab.Container>
+          <br />
         </Container>
       </div>
     );

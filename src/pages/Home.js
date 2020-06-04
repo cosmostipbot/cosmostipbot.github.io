@@ -220,6 +220,7 @@ export default class Home extends Component {
               </Col>
             </Row>
           </Tab.Container>
+          <br />
         </Container>
       </div>
     );

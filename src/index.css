@@ -1,21 +1,4 @@
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"),
-    url(./fonts/Roboto/Roboto-Regular.ttf) format("truetype");
-}
-/* 
-.your-style {
-  font-family: 'KievitOT';
-  font-weight: 500;
-  font-style: normal;
-} */
-
-@font-face {
-  font-family: "CooperBlack";
-  src: local("COOPBL"), url(./fonts/cooper-black/COOPBL.ttf) format("truetype");
-}
-
-@font-face {
   font-family: "KievitOT-Medium";
   src: url("./fonts/Kievit/KievitOT-Medium.eot");
   src: local("./fonts/Kievit/KievitOT-Medium"),
@@ -54,7 +37,6 @@
 
 body {
   margin: 0;
-  /* font-family: Roboto; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
