@@ -283,7 +283,8 @@ export default class HowTo extends Component {
                           <h3>How to send tips?</h3>
                           <br />
                           Always use the STF (Standard tip format) in any group
-                          chat.
+                          chat that supports @cosmostipbot (Must have admin
+                          rights).
                           <br />
                           <br />
                           <code>@Cosmostipbot /tip 1 @username</code>

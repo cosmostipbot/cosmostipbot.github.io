@@ -44,23 +44,13 @@ export default class AboutUs extends Component {
                 <FontAwesomeIcon icon={faQuoteRight} size="lg" />{" "}
                 <i>
                   Our mission is to provide an intuitive, convenient and fast
-                  way to reward content and creators on social media platforms.
+                  way to reward content and creators on social media
+                  platforms.We strive to improve app capabilities and features
+                  and expand to many social platforms, reaching both the
+                  blockchain target audience as well as a broad userbase from
+                  outside the market.
                 </i>{" "}
-                <br />
-                <br />
-                <span style={{ marginLeft: "35px" }}>
-                  <i>
-                    We strive to improve app capabilities and features and
-                    expand to many social platforms, reaching both
-                  </i>
-                </span>{" "}
-                <br />
-                <br />
-                <span style={{ marginLeft: "35px" }}></span>
-                <i>
-                  the blockchain target audience as well as a broad userbase
-                  from outside the market
-                </i>
+                <FontAwesomeIcon icon={faQuoteRight} size="lg" />
                 <br />
                 <br />
                 We always welcome community feedback and engagement so feel free
