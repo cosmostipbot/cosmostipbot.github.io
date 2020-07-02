@@ -9,7 +9,7 @@ export default class TopHeader extends Component {
         <Jumbotron>
           <div className="header-div">
             <img
-              src="/img/background.png"
+              src="/img/dude.jpg"
               className="header-img"
               alt="comostipbot logo"
             />

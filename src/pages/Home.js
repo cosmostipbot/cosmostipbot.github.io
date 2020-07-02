@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faTelegram } from "@fortawesome/free-brands-svg-icons";
+import { faAtom } from "@fortawesome/pro-light-svg-icons";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -8,6 +9,8 @@ import Col from "react-bootstrap/Col";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
+
+import ListGroup from "react-bootstrap/ListGroup";
 
 export default class Home extends Component {
   render() {
@@ -69,6 +72,15 @@ export default class Home extends Component {
                   <Nav.Item>
                     <Nav.Link eventKey="second">
                       <FontAwesomeIcon icon={faTelegram} size="lg" /> Telegram
+                    </Nav.Link>
+                  </Nav.Item>
+                </Nav>
+              </Col>
+              <Col sm={4}>
+                <Nav variant="pills" className="flex-column">
+                  <Nav.Item>
+                    <Nav.Link eventKey="atom">
+                      <FontAwesomeIcon icon={faAtom} size="lg" /> &nbsp;ATOM
                     </Nav.Link>
                   </Nav.Item>
                 </Nav>
@@ -213,6 +225,117 @@ export default class Home extends Component {
                             Register on Telegram
                           </Button>
                         </a>
+                      </Col>
+                    </Row>
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="atom">
+                    {/* <Row>
+                      <Col>
+                        <img
+                          src="/img/atom_cosmonaut.jpg"
+                          className="header-img"
+                          alt="comostipbot logo"
+                        /><br/><br/>
+                      </Col>
+                    </Row> */}
+                    <Row>
+                      <Col>
+                        <h1>ATOM</h1>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col>
+                        <div style={{ textAlign: "left" }}>
+                          <p>
+                            ATOM is the native asset of the Cosmos Network. It
+                            has a total supply of 257 million atom of which 257
+                            million are circulating.
+                            <br />
+                            Currently 71% of all Atom are locked up on chain by
+                            users of the network in order to secure the POS
+                            Blockchain.
+                          </p>
+                          <p>
+                            ATOM is currently available on 133 global markets.{" "}
+                            <br />
+                            We have listed the most liquid exchanges for your
+                            convenience.
+                          </p>
+                          <br />
+                          <br />
+                        </div>
+                      </Col>
+                    </Row>
+
+                    <Row>
+                      <Col>
+                        <h2>Exchanges</h2>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col>
+                        <ListGroup variant="flush">
+                          <ListGroup.Item>
+                            <a
+                              href="https://www.binance.com/en/register?ref=43412619"
+                              target="new"
+                            >
+                              Binance
+                            </a>
+                          </ListGroup.Item>
+                          <ListGroup.Item>
+                            <a
+                              href="https://www.coinbase.com/join/schwar_duk"
+                              target="new"
+                            >
+                              Coinbase
+                            </a>
+                          </ListGroup.Item>
+                          <ListGroup.Item>
+                            <a
+                              href="https://www.mxc.ai/auth/signup?inviteCode=149zu"
+                              target="new"
+                            >
+                              MXC
+                            </a>
+                          </ListGroup.Item>
+                          <ListGroup.Item>
+                            <a
+                              href="https://www.coinex.com/register?refer_code=nrpz4"
+                              target="new"
+                            >
+                              CoinEx
+                            </a>
+                          </ListGroup.Item>
+                          <ListGroup.Item>
+                            <a
+                              href="https://www.kucoin.com/ucenter/signup?rcode=2R8tu8d"
+                              target="new"
+                            >
+                              Kucoin
+                            </a>
+                          </ListGroup.Item>
+                          <ListGroup.Item>Kraken</ListGroup.Item>
+                          <ListGroup.Item>Huobi Global</ListGroup.Item>
+                          <ListGroup.Item>Bittrex</ListGroup.Item>
+                          <ListGroup.Item>OKEx</ListGroup.Item>
+                          <ListGroup.Item>BitMax</ListGroup.Item>
+                        </ListGroup>
+                      </Col>
+                    </Row>
+
+                    <Row>
+                      <Col>
+                        <p>
+                          <small>
+                            Disclaimer: The Cosmos Tip App developers do not
+                            give financial advice to users on the purchase or
+                            sale of ATOM cryptocurrency. ATOM is the native
+                            asset of the Cosmos Tip App and we therefore want to
+                            show all available exchanges that currently support
+                            ATOM.
+                          </small>
+                        </p>
                       </Col>
                     </Row>
                   </Tab.Pane>

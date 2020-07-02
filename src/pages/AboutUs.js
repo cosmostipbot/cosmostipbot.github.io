@@ -27,9 +27,8 @@ export default class AboutUs extends Component {
                   Cosmos
                 </a>{" "}
                 (ATOM) social tip application allows for seemless sending and
-                recieving of cryptocurrency to anyone <br />
-                <br />
-                via direct mentions and in public group chats. <br />
+                recieving of cryptocurrency to anyone via direct mentions and in
+                public group chats. <br />
                 <br />
                 The application was co-created by Hubertus von Heyden (
                 <a href="https://twitter.com/Immasssi" target="new">
@@ -37,9 +36,9 @@ export default class AboutUs extends Component {
                 </a>
                 ) and Tobias Schwarz (
                 <a href="https://twitter.com/toschdev" target="new">
-                  @toschdev)
+                  @toschdev
                 </a>
-                .<br />
+                ) .<br />
                 <br />
                 <FontAwesomeIcon icon={faQuoteRight} size="lg" />{" "}
                 <i>
